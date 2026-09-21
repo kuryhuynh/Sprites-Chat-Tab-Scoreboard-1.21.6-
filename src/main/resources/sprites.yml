@@ -1,0 +1,337 @@
+# ==============================================================================
+#                      SPRITES CONFIGURATION (NATIVE MINECRAFT 1.21)
+# Sử dụng trực tiếp Sprite Texture của Minecraft (ObjectContents.sprite)
+# KHÔNG CẦN BẤT KỲ RESOURCE PACK NÀO - TỰ ĐỘNG HIỂN THỊ ICON NGUYÊN BẢN TRONG CHAT!
+# ==============================================================================
+
+sprites:
+  ender_pearl:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/ender_pearl"
+    display_name: "<dark_aqua><b>[Ender Pearl]</b></dark_aqua>"
+    description: "<gray>Ngọc dịch chuyển Ender</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "pearl"
+      - "ngoc_ender"
+      - "ngocender"
+
+  end_crystal:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/end_crystal"
+    display_name: "<light_purple><b>[End Crystal]</b></light_purple>"
+    description: "<gray>Pha Lê Ender</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "crystal"
+      - "ecrystal"
+
+  totem_of_undying:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/totem_of_undying"
+    display_name: "<yellow><b>[Totem of Undying]</b></yellow>"
+    description: "<gray>Bùa hồi sinh bất tử</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "totem"
+      - "bua_bat_tu"
+
+  golden_apple:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/golden_apple"
+    display_name: "<gold><b>[Táo Vàng]</b></gold>"
+    description: "<gray>Táo vàng bổ dưỡng</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "gap"
+      - "gapple"
+      - "taovang"
+      - "tao_vang"
+
+  enchanted_golden_apple:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/golden_apple"
+    display_name: "<light_purple><b>[Táo Notch]</b></light_purple>"
+    description: "<gray>Táo Thần Notch</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "egap"
+      - "notch"
+      - "notch_apple"
+      - "taonotch"
+
+  diamond:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/diamond"
+    display_name: "<aqua><b>[Kim Cương]</b></aqua>"
+    description: "<gray>Đá quý kim cương</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "dia"
+      - "kc"
+      - "kimcuong"
+
+  emerald:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/emerald"
+    display_name: "<green><b>[Ngọc Lục Bảo]</b></green>"
+    description: "<gray>Ngọc Lục Bảo trao đổi</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "em"
+      - "ngoclucbao"
+
+  netherite_sword:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/netherite_sword"
+    display_name: "<dark_gray><b>[Kiếm Netherite]</b></dark_gray>"
+    description: "<gray>Vũ khí cận chiến tối thượng</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "sword"
+      - "kiem"
+      - "kiem_netherite"
+
+  diamond_sword:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/diamond_sword"
+    display_name: "<aqua><b>[Kiếm Kim Cương]</b></aqua>"
+    description: "<gray>Kiếm kim cương sắc bén</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "diasword"
+      - "kiemkc"
+      - "kiem_kc"
+
+  netherite_pickaxe:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/netherite_pickaxe"
+    display_name: "<dark_gray><b>[Cúp Netherite]</b></dark_gray>"
+    description: "<gray>Dụng cụ khai khoáng tối thượng</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "pick"
+      - "pickaxe"
+      - "cup"
+      - "cup_netherite"
+
+  diamond_pickaxe:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/diamond_pickaxe"
+    display_name: "<aqua><b>[Cúp Kim Cương]</b></aqua>"
+    description: "<gray>Cúp khai khoáng kim cương</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "diapick"
+      - "diapickaxe"
+      - "cupkc"
+
+  netherite_axe:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/netherite_axe"
+    display_name: "<dark_gray><b>[Rìu Netherite]</b></dark_gray>"
+    description: "<gray>Rìu chiến Netherite</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "axe"
+      - "riu"
+      - "riu_netherite"
+
+  mace:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/mace"
+    display_name: "<red><b>[Chùy Mace]</b></red>"
+    description: "<gray>Vũ khí chùy siêu sát thương 1.21</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "chuy"
+      - "chuy_mace"
+
+  wind_charge:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/wind_charge"
+    display_name: "<white><b>[Cầu Gió Wind Charge]</b></white>"
+    description: "<gray>Cầu gió bắn đẩy lùi 1.21</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "wind"
+      - "charge"
+      - "caugio"
+      - "cau_gio"
+
+  heavy_core:
+    atlas: "minecraft:blocks"
+    sprite: "minecraft:block/heavy_core"
+    display_name: "<dark_purple><b>[Lõi Nặng Heavy Core]</b></dark_purple>"
+    description: "<gray>Khối chế tạo Chùy Mace 1.21</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "core"
+      - "loinang"
+      - "loi_nang"
+
+  breeze_rod:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/breeze_rod"
+    display_name: "<aqua><b>[Que Breeze]</b></aqua>"
+    description: "<gray>Que gió rơi từ quái Breeze</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "breeze"
+      - "quebreeze"
+
+  blaze_rod:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/blaze_rod"
+    display_name: "<gold><b>[Que Quỷ Lửa Blaze]</b></gold>"
+    description: "<gray>Que lửa địa ngục</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "blaze"
+      - "quelua"
+      - "que_lua"
+
+  elytra:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/elytra"
+    display_name: "<gray><b>[Cánh Elytra]</b></gray>"
+    description: "<gray>Cánh bay lượn trên không</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "canh"
+      - "canh_elytra"
+
+  firework_rocket:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/firework_rocket"
+    display_name: "<red><b>[Pháo Hoa]</b></red>"
+    description: "<gray>Pháo hoa bay lượn cùng cánh Elytra</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "firework"
+      - "rocket"
+      - "phaohoa"
+      - "phao_hoa"
+
+  bow:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/bow"
+    display_name: "<gold><b>[Cung Tên]</b></gold>"
+    description: "<gray>Vũ khí bắn tầm xa</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "cung"
+      - "cung_ten"
+
+  crossbow:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/crossbow_standby"
+    display_name: "<gold><b>[Nỏ Bắn Tên]</b></gold>"
+    description: "<gray>Nỏ bắn tên cơ động</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "no"
+      - "no_ban_ten"
+
+  trident:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/trident"
+    display_name: "<aqua><b>[Đinh Ba]</b></aqua>"
+    description: "<gray>Vũ khí thần biển</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "dinhba"
+      - "dinh_ba"
+
+  experience_bottle:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/experience_bottle"
+    display_name: "<green><b>[Chai Kinh Nghiệm XP]</b></green>"
+    description: "<gray>Chai điểm kinh nghiệm</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "xp"
+      - "exp"
+      - "chaixp"
+
+  chorus_fruit:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/chorus_fruit"
+    display_name: "<light_purple><b>[Quả Chorus]</b></light_purple>"
+    description: "<gray>Quả dịch chuyển ngẫu nhiên</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "chorus"
+      - "quachorus"
+
+  arrow:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/arrow"
+    display_name: "<white><b>[Mũi Tên]</b></white>"
+    description: "<gray>Đạn bắn cung nỏ</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "ten"
+      - "muiten"
+
+  tnt:
+    atlas: "minecraft:blocks"
+    sprite: "minecraft:block/tnt_side"
+    display_name: "<red><b>[Khối Thuốc Nổ TNT]</b></red>"
+    description: "<gray>Khối nổ công phá</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "thuocno"
+      - "thuoc_no"
+
+  respawn_anchor:
+    atlas: "minecraft:blocks"
+    sprite: "minecraft:block/respawn_anchor_top"
+    display_name: "<dark_purple><b>[Mỏ Neo Hồi Sinh]</b></dark_purple>"
+    description: "<gray>Điểm hồi sinh ở Nether</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "anchor"
+      - "moneo"
+
+  cobweb:
+    atlas: "minecraft:blocks"
+    sprite: "minecraft:block/cobweb"
+    display_name: "<white><b>[Tơ Nhện]</b></white>"
+    description: "<gray>Mạng nhện giữ chân</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "web"
+      - "tohen"
+      - "mangnhen"
+
+  trial_key:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/trial_key"
+    display_name: "<gold><b>[Chìa Khóa Trial]</b></gold>"
+    description: "<gray>Chìa khóa mở hòm Trial Spawner 1.21</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "key"
+      - "chiakhoa"
+
+  ominous_trial_key:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/ominous_trial_key"
+    display_name: "<dark_purple><b>[Chìa Khóa Ominous]</b></dark_purple>"
+    description: "<gray>Chìa khóa mở hòm Vault Ominous 1.21</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "ominous_key"
+      - "chiakhoa_ominous"
+
+  ominous_bottle:
+    atlas: "minecraft:items"
+    sprite: "minecraft:item/ominous_bottle"
+    display_name: "<dark_red><b>[Bình Điềm Xấu Ominous Bottle]</b></dark_red>"
+    description: "<gray>Bình hiệu ứng Bad Omen 1.21</gray>"
+    permission: "spriteschat.use"
+    aliases:
+      - "ominous"
+      - "bad_omen"
+      - "chaidiemxau"

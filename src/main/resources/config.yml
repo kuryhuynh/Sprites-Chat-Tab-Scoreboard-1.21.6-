@@ -1,0 +1,72 @@
+# ==============================================================================
+#                 SPRITESCHAT CONFIGURATION (FOLIA 1.21.11)
+#           CHẾ ĐỘ NATIVE 1.21 100% - KHÔNG CẦN RESOURCE PACK
+# ==============================================================================
+
+# Cài đặt Hover & Click tương tác
+interaction:
+  enable-hover: true
+  enable-click-suggest: true
+  # Hành động click: SUGGEST_COMMAND (điền vào chat), COPY_TO_CLIPBOARD
+  click-action: SUGGEST_COMMAND
+
+# Cài đặt gợi ý Chat & Tab Complete (:emote)
+suggestions:
+  enabled: true
+  # Tự động gửi danh sách gợi ý vào bộ nhớ client (ClientboundCustomChatCompletionsPacket)
+  # Khi gõ ":" trong khung chat, Minecraft client sẽ tự động hiện ngay popup gợi ý
+  custom-completions: true
+  # Gợi ý khi nhấn phím Tab trong lúc chat hoặc gõ lệnh nhắn tin (/msg, /tell...)
+  tab-complete: true
+  # Giới hạn số lượng gợi ý tối đa khi bấm Tab (tránh tràn màn hình khi chỉ gõ ":")
+  max-tab-completions: 30
+
+# Cài đặt hiển thị Player Head theo tên (:nameplayer:)
+player-heads:
+  enabled: true
+  # Chế độ nhận diện player head:
+  # - ALL: Tự động nhận diện tất cả tên người chơi hợp lệ Minecraft (bao gồm cả online và offline như Notch, Steve, Kury...)
+  # - ONLINE_ONLY: Chỉ hiển thị đầu của người chơi đang online trong server
+  mode: ALL
+  permission: "spriteschat.use.players"
+
+# Cài đặt kết nối Minecraft-Heads API
+minecraft-heads:
+  api-url: "https://minecraft-heads.com/scripts/api.php"
+  user-agent: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) SpritesChat/1.0"
+  cache-directory: "cache/heads"
+  auto-fetch: true
+
+# Cài đặt tích hợp TAB & Scoreboard (NEZNAMY TAB)
+tab-integration:
+  # Cú pháp trả về cho plugin TAB đối với custom heads (:vn:, :discord:, v.v.):
+  # - HEAD_TEXTURE: <head_texture:hash> (Chuẩn TAB MiniMessage, yêu cầu 'minimessage-support: true' trong plugins/TAB/config.yml)
+  # - HEAD_NAME: <head:Name> (Cú pháp cơ bản của TAB)
+  # - HEAD_UUID: <head:UUID> (Cú pháp UUID của TAB)
+  # - SPRITE_FALLBACK: Tự động chuyển thành Atlas Sprite thay thế (Hiển thị mượt mà trên cả Scoreboard!)
+  head-format: HEAD_TEXTURE
+
+  # Tự động chuyển sang fallback sprite khi head không có texture URL hợp lệ
+  fallback-to-sprite: true
+
+# Cài đặt tương thích cho Bedrock (Geyser/Floodgate) và phiên bản Java dưới 1.21.6
+legacy-compatibility:
+  # Bật định dạng hiển thị riêng cho client không hỗ trợ Native ObjectComponent
+  enabled: true
+  # Định dạng hiển thị cho người xem (viewer) dùng Bedrock hoặc Java < 1.21.6:
+  # Các biến hỗ trợ: {item} (tên item/head, ví dụ diamond, vn, Notch)
+  # Mặc định theo yêu cầu: ":{item}:" (ví dụ: :diamond:, :vn:, :Notch:)
+  format: ":{item}:"
+  # Protocol version tối thiểu hỗ trợ Native ObjectComponent (Minecraft 1.21.6 = 771)
+  min-protocol-version: 771
+  # Áp dụng định dạng này cho cả PlaceholderAPI / TAB khi player là Bedrock hoặc Java cũ
+  apply-to-placeholders: true
+
+# Thông báo hệ thống (MiniMessage)
+messages:
+  prefix: "<gradient:#38ef7d:#11998e>[SpritesChat]</gradient> <gray>»</gray> "
+  no-permission: "<red>Bạn không có quyền sử dụng icon này!</red>"
+  reloaded: "<green>Đã tải lại cấu hình SpritesChat thành công (Native 1.21 - No Resource Pack)!</green>"
+  head-fetching: "<yellow>Đang tải dữ liệu head cho <gold>{name}</gold> từ minecraft-heads.com...</yellow>"
+  head-fetched: "<green>Đã tải xong head <gold>{name}</gold>! Đã cập nhật vào hệ thống.</green>"
+  head-failed: "<red>Không tìm thấy head hoặc lỗi tải cho <gold>{name}</gold>.</red>"

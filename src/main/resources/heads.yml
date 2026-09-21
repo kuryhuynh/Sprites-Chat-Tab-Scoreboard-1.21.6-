@@ -1,0 +1,567 @@
+# ==============================================================================
+#                      HEADS CONFIGURATION (NATIVE MINECRAFT 1.21)
+# Lấy trực tiếp từ https://minecraft-heads.com/api
+# Sử dụng trực tiếp Native Player Head của Minecraft (ObjectContents.playerHead)
+# KHÔNG CẦN BẤT KỲ RESOURCE PACK NÀO - HIỂN THỊ NATIVE SKULL SKINS TRONG CHAT!
+# ==============================================================================
+
+heads:
+  VietNam:
+    name: "VietNam"
+    uuid: "70d3bb3c-86fc-471a-9e1a-58a8d43987d8"
+    texture_url: "https://textures.minecraft.net/texture/8a57b9d7dd04169478cfdb8d0b6fd0b8c82b6566bb28371ee9a7c7c1671ad0bb"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhhNTdiOWQ3ZGQwNDE2OTQ3OGNmZGI4ZDBiNmZkMGI4YzgyYjY1NjZiYjI4MzcxZWU5YTdjN2MxNjcxYWQwYmIifX19"
+    display_name: "<red><b>[Lá Cờ Việt Nam]</b></red>"
+    description: "<gold>★ <red>Cờ đỏ sao vàng Việt Nam (Chuẩn tỷ lệ & viền bo tròn)</red></gold>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    fallback_sprite: "minecraft:item/red_banner"
+    aliases:
+      - "vietnam"
+      - "vn"
+      - "VN"
+      - "viet_nam"
+      - "vietnam_flag"
+      - "cờ_việt_nam"
+
+  Japan:
+    name: "Japan"
+    uuid: "20774ef9-f853-4246-8778-50b828007e58"
+    texture_url: "https://textures.minecraft.net/texture/d6c2ca7238666ae1b9dd9daa3d4fc829db22609fb569312dec1fb0c8d6dd6c1d"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Q2YzJjYTcyMzg2NjZhZTFiOWRkOWRhYTNkNGZjODI5ZGIyMjYwOWZiNTY5MzEyZGVjMWZiMGM4ZDZkZDZjMWQifX19"
+    display_name: "<white><b>[Cờ Nhật Bản]</b></white>"
+    description: "<red>● <white>Quốc kỳ Nhật Bản (Mặt trời mọc)</white></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    fallback_sprite: "minecraft:item/white_banner"
+    aliases:
+      - "japan"
+      - "jp"
+      - "nhatban"
+      - "nhat_ban"
+      - "japan_flag"
+
+  Korea:
+    name: "South Korea"
+    uuid: "6053c959-5f6c-4000-b468-a75230f0fb9a"
+    texture_url: "https://textures.minecraft.net/texture/fc1be5f12f45e413eda56f3de94e08d90ede8e339c7b1e8f32797390e9a5f"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZjMWJlNWYxMmY0NWU0MTNlZGE1NmYzZGU5NGUwOGQ5MGVkZThlMzM5YzdiMWU4ZjMyNzk3MzkwZTlhNWYifX19"
+    display_name: "<white><b>[Cờ Hàn Quốc]</b></white>"
+    description: "<blue>☯ <white>Quốc kỳ Hàn Quốc (Thái cực kỳ)</white></blue>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    fallback_sprite: "minecraft:item/white_banner"
+    aliases:
+      - "korea"
+      - "kr"
+      - "hanquoc"
+      - "han_quoc"
+      - "south_korea"
+
+  USA:
+    name: "United States"
+    uuid: "d64e41e7-0f87-4460-ba75-20cc12e63172"
+    texture_url: "https://textures.minecraft.net/texture/cd91456877f54bf1ace251e4cee40dba597d2cc40362cb8f4ed711e50b0be5b3"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NkOTE0NTY4NzdmNTRiZjFhY2UyNTFlNGNlZTQwZGJhNTk3ZDJjYzQwMzYyY2I4ZjRlZDcxMWU1MGIwYmU1YjMifX19"
+    display_name: "<blue><b>[Cờ Hoa Kỳ]</b></blue>"
+    description: "<red>★ <white>Quốc kỳ Hoa Kỳ (Stars and Stripes)</white></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    fallback_sprite: "minecraft:item/blue_banner"
+    aliases:
+      - "usa"
+      - "us"
+      - "america"
+      - "my"
+      - "united_states"
+
+  UK:
+    name: "United Kingdom"
+    uuid: "1a57ad03-fe7e-4e9a-a8b5-b79446b967aa"
+    texture_url: "https://textures.minecraft.net/texture/9623cb6757541550da1c11f36b75ec60fd73b06c933909ff96aeffac43c6a364"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2MjNjYjY3NTc1NDE1NTBkYTFjMTFmMzZiNzVlYzYwZmQ3M2IwNmM5MzM5MDlmZjk2YWVmZmFjNDNjNmEzNjQifX19"
+    display_name: "<blue><b>[Cờ Vương Quốc Anh]</b></blue>"
+    description: "<red>+ <blue>Quốc kỳ Vương quốc Anh (Union Jack)</blue></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    fallback_sprite: "minecraft:item/blue_banner"
+    aliases:
+      - "uk"
+      - "gb"
+      - "anh"
+      - "united_kingdom"
+      - "britain"
+
+  France:
+    name: "France"
+    uuid: "2ddda585-fd12-400f-a2d7-453ec59e2569"
+    texture_url: "https://textures.minecraft.net/texture/6903349fa45bdd87126d9cd3c6c0abba7dbd6f56fb8d78701873a1e7c8ee33cf"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY5MDMzNDlmYTQ1YmRkODcxMjZkOWNkM2M2YzBhYmJhN2RiZDZmNTZmYjhkNzg3MDE4NzNhMWU3YzhlZTMzY2YifX19"
+    display_name: "<blue><b>[Cờ Pháp]</b></blue>"
+    description: "<blue>▌<white>▌<red>▌ Quốc kỳ Cộng hòa Pháp (Tricolore)</red></white></blue>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    fallback_sprite: "minecraft:item/blue_banner"
+    aliases:
+      - "france"
+      - "fr"
+      - "phap"
+
+  Germany:
+    name: "Germany"
+    uuid: "be211c23-d8aa-4119-bd0d-7f50fd115d9f"
+    texture_url: "https://textures.minecraft.net/texture/5e7899b4806858697e283f084d9173fe487886453774626b24bd8cfecc77b3f"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzVlNzg5OWI0ODA2ODU4Njk3ZTI4M2YwODRkOTE3M2ZlNDg3ODg2NDUzNzc0NjI2YjI0YmQ4Y2ZlY2M3N2IzZiJ9fX0="
+    display_name: "<gold><b>[Cờ Đức]</b></gold>"
+    description: "<dark_gray>▀<red>▀<gold>▀ Quốc kỳ Cộng hòa Liên bang Đức</gold></red></dark_gray>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    fallback_sprite: "minecraft:item/black_banner"
+    aliases:
+      - "germany"
+      - "de"
+      - "duc"
+
+  Canada:
+    name: "Canada"
+    uuid: "ec3a65b7-41d5-40cf-8a0b-0256d065a57d"
+    texture_url: "https://textures.minecraft.net/texture/f241a697f6dfb1c57cda327baa6732a7828c398be4ebfdbd166c232bcae2b"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2YyNDFhNjk3ZjZkZmIxYzU3Y2RhMzI3YmFhNjczMmE3ODI4YzM5OGJlNGViZmRiZDE2NmMyMzJiY2FlMmIifX19"
+    display_name: "<red><b>[Cờ Canada]</b></red>"
+    description: "<red>🍁 Quốc kỳ Canada (Lá phong đỏ)</red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "canada"
+      - "ca"
+
+  Brazil:
+    name: "Brazil"
+    uuid: "d68944f2-736e-4ee6-b0c3-5ff1bc05d332"
+    texture_url: "https://textures.minecraft.net/texture/9668a1fb6af81b231bbcc4de5f7f95803bbd194f5827da027fa70321cf47c"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2NjhhMWZiNmFmODFiMjMxYmJjYzRkZTVmN2Y5NTgwM2JiZDE5NGY1ODI3ZGEwMjdmYTcwMzIxY2Y0N2MifX19"
+    display_name: "<green><b>[Cờ Brazil]</b></green>"
+    description: "<green>◆ <yellow>Quốc kỳ Cộng hòa Liên bang Brasil</yellow></green>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "brazil"
+      - "br"
+
+  Russia:
+    name: "Russia"
+    uuid: "849c610b-a1fe-48eb-840b-3fe775f6af6f"
+    texture_url: "https://textures.minecraft.net/texture/16eafef980d6117dabe8982ac4b4509887e2c4621f6a8fe5c9b735a83d775ad"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2ZWFmZWY5ODBkNjExN2RhYmU4OTgyYWM0YjQ1MDk4ODdlMmM0NjIxZjZhOGZlNWM5YjczNWE4M2Q3NzVhZCJ9fX0="
+    display_name: "<white><b>[Cờ Nga]</b></white>"
+    description: "<white>▀<blue>▀<red>▀ Quốc kỳ Liên bang Nga</red></blue></white>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "russia"
+      - "ru"
+      - "nga"
+
+  China:
+    name: "China"
+    uuid: "2ee56f96-3d1e-4d4d-a259-3828989023ce"
+    texture_url: "https://textures.minecraft.net/texture/7f9bc035cdc80f1ab5e1198f29f3ad3fdd2b42d9a69aeb64de990681800b98dc"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmOWJjMDM1Y2RjODBmMWFiNWUxMTk4ZjI5ZjNhZDNmZGQyYjQyZDlhNjlhZWI2NGRlOTkwNjgxODAwYjk4ZGMifX19"
+    display_name: "<red><b>[Cờ Trung Quốc]</b></red>"
+    description: "<red>★ <yellow>Quốc kỳ Cộng hòa Nhân dân Trung Hoa</yellow></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "china"
+      - "cn"
+      - "trungquoc"
+      - "trung_quoc"
+
+  Australia:
+    name: "Australia"
+    uuid: "65eea1f8-0a64-4191-b310-c18fcf2cf618"
+    texture_url: "https://textures.minecraft.net/texture/3ba586a6f07a099a58838a9fbed845ecf780fc2a390f7a4620a7dcf0a85e75a4"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNiYTU4NmE2ZjA3YTA5OWE1ODgzOGE5ZmJlZDg0NWVjZjc4MGZjMmEzOTBmN2E0NjIwYTdkY2YwYTg1ZTc1YTQifX19"
+    display_name: "<blue><b>[Cờ Úc]</b></blue>"
+    description: "<blue>★ Quốc kỳ Thịnh vượng chung Úc</blue>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "australia"
+      - "au"
+      - "uc"
+
+  Spain:
+    name: "Spain"
+    uuid: "884a57c8-27ad-4b50-b42b-bee01239f4a8"
+    texture_url: "https://textures.minecraft.net/texture/32bd4521983309e0ad76c1ee29874287957ec3d96f8d889324da8c887e485ea8"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMyYmQ0NTIxOTgzMzA5ZTBhZDc2YzFlZTI5ODc0Mjg3OTU3ZWMzZDk2ZjhkODg5MzI0ZGE4Yzg4N2U0ODVlYTgifX19"
+    display_name: "<yellow><b>[Cờ Tây Ban Nha]</b></yellow>"
+    description: "<red>▀<yellow>▀<red>▀ Quốc kỳ Vương quốc Tây Ban Nha</red></yellow></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "spain"
+      - "es"
+      - "taybannha"
+      - "tay_ban_nha"
+
+  Italy:
+    name: "Italy"
+    uuid: "a17baafd-e77e-4884-8c47-e7a08146147e"
+    texture_url: "https://textures.minecraft.net/texture/85ce89223fa42fe06ad65d8d44ca412ae899c831309d68924dfe0d142fdbeea4"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg1Y2U4OTIyM2ZhNDJmZTA2YWQ2NWQ4ZDQ0Y2E0MTJhZTg5OWM4MzEzMDlkNjg5MjRkZmUwZDE0MmZkYmVlYTQifX19"
+    display_name: "<green><b>[Cờ Ý]</b></green>"
+    description: "<green>▌<white>▌<red>▌ Quốc kỳ Cộng hòa Ý (Il Tricolore)</red></white></green>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "italy"
+      - "it"
+      - "y"
+
+  Thailand:
+    name: "Thailand"
+    uuid: "85cfc219-e408-4a60-80b8-50c58c08ee90"
+    texture_url: "https://textures.minecraft.net/texture/2a7916e4a852f7e6f3f3de19c7fb57686a37bce834bd54684a7dbef8d53fb"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJhNzkxNmU0YTg1MmY3ZTZmM2YzZGUxOWM3ZmI1NzY4NmEzN2JjZTgzNGJkNTQ2ODRhN2RiZWY4ZDUzZmIifX19"
+    display_name: "<red><b>[Cờ Thái Lan]</b></red>"
+    description: "<red>▀<white>▀<blue>▀ Quốc kỳ Vương quốc Thái Lan (Trairanga)</blue></white></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "thailand"
+      - "th"
+      - "thailan"
+      - "thai_lan"
+
+  Singapore:
+    name: "Singapore"
+    uuid: "571aa975-8b65-4e35-a88a-7772eea50960"
+    texture_url: "https://textures.minecraft.net/texture/8b5ed11f797f3fc61eaf8dafb6bf3234d31b96ab7596bd2df722d2ef3473c27"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhiNWVkMTFmNzk3ZjNmYzYxZWFmOGRhZmI2YmYzMjM0ZDMxYjk2YWI3NTk2YmQyZGY3MjJkMmVmMzQ3M2MyNyJ9fX0="
+    display_name: "<red><b>[Cờ Singapore]</b></red>"
+    description: "<red>★ <white>Quốc kỳ Cộng hòa Singapore</white></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "singapore"
+      - "sg"
+
+  Philippines:
+    name: "Philippines"
+    uuid: "643a3434-7617-4fa8-a4de-f80e9b54e897"
+    texture_url: "https://textures.minecraft.net/texture/9306c0c1ce6a9c61bb42a572c49e6d0ed20e0e6b3d122cc64c339cbf78e9e937"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzMDZjMGMxY2U2YTljNjFiYjQyYTU3MmM0OWU2ZDBlZDIwZTBlNmIzZDEyMmNjNjRjMzM5Y2JmNzhlOWU5MzcifX19"
+    display_name: "<blue><b>[Cờ Philippines]</b></blue>"
+    description: "<blue>★ <yellow>Quốc kỳ Cộng hòa Philippines</yellow></blue>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "philippines"
+      - "ph"
+
+  Indonesia:
+    name: "Indonesia"
+    uuid: "23d8f46c-e821-4897-bcc4-eb29f0728613"
+    texture_url: "https://textures.minecraft.net/texture/cbe63fcaa0203f8046fb96375d079a5c09b4161d0119d7194566e689cab18f68"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiZTYzZmNhYTAyMDNmODA0NmZiOTYzNzVkMDc5YTVjMDliNDE2MWQwMTE5ZDcxOTQ1NjZlNjg5Y2FiMThmNjgifX19"
+    display_name: "<red><b>[Cờ Indonesia]</b></red>"
+    description: "<red>▀<white>▀ Quốc kỳ Cộng hòa Indonesia (Sang Saka Merah-Putih)</white></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "indonesia"
+      - "id"
+
+  Malaysia:
+    name: "Malaysia"
+    uuid: "21409746-749e-4f90-812e-6ca881355111"
+    texture_url: "https://textures.minecraft.net/texture/754b9041dea6db6db44750f1385a743adf653767b4b8802cad4c585dd3f5be46"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc1NGI5MDQxZGVhNmRiNmRiNDQ3NTBmMTM4NWE3NDNhZGY2NTM3NjdiNGI4ODAyY2FkNGM1ODVkZDNmNWJlNDYifX19"
+    display_name: "<red><b>[Cờ Malaysia]</b></red>"
+    description: "<red>★ <yellow>Quốc kỳ Malaysia (Jalur Gemilang)</yellow></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "malaysia"
+      - "my_flag"
+
+  Laos:
+    name: "Laos"
+    uuid: "99905565-3240-4ced-9246-ec24e1bccf08"
+    texture_url: "https://textures.minecraft.net/texture/61b8812433aa401799e4ac424584a9bc6e04186563c6558bbea6824f8f374"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYxYjg4MTI0MzNhYTQwMTc5OWU0YWM0MjQ1ODRhOWJjNmUwNDE4NjU2M2M2NTU4YmJlYTY4MjRmOGYzNzQifX19"
+    display_name: "<blue><b>[Cờ Lào]</b></blue>"
+    description: "<red>▀<blue>●<red>▀ Quốc kỳ Cộng hòa Dân chủ Nhân dân Lào</red></blue></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "laos"
+      - "la"
+      - "lao"
+
+  Cambodia:
+    name: "Cambodia"
+    uuid: "badb66e2-f137-4461-9428-a0a9f74651e1"
+    texture_url: "https://textures.minecraft.net/texture/16c526f9a335b62febe4ef3734be060e9a4906ab1792e2278b898afcfd515ea8"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2YzUyNmY5YTMzNWI2MmZlYmU0ZWYzNzM0YmUwNjBlOWE0OTA2YWIxNzkyZTIyNzhiODk4YWZjZmQ1MTVlYTgifX19"
+    display_name: "<blue><b>[Cờ Campuchia]</b></blue>"
+    description: "<blue>▀<red>🏛<blue>▀ Quốc kỳ Vương quốc Campuchia (Angkor Wat)</blue></red></blue>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "cambodia"
+      - "kh"
+      - "campuchia"
+
+  India:
+    name: "India"
+    uuid: "4ba13d5e-9ec6-48c5-b4ff-eeea61dfb61b"
+    texture_url: "https://textures.minecraft.net/texture/2f89e46f1d5454c967676efb4977a84a18d0084326c76c7bfc4e7843bb1a901"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJmODllNDZmMWQ1NDU0Yzk2NzY3NmVmYjQ5NzdhODRhMThkMDA4NDMyNmM3NmM3YmZjNGU3ODQzYmIxYTkwMSJ9fX0="
+    display_name: "<gold><b>[Cờ Ấn Độ]</b></gold>"
+    description: "<gold>▀<white>☸<green>▀ Quốc kỳ Cộng hòa Ấn Độ (Tiranga)</green></white></gold>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "india"
+      - "in"
+      - "ando"
+      - "an_do"
+
+  Sweden:
+    name: "Sweden"
+    uuid: "7b797a5a-7ca2-4049-a637-c01dc139c2c7"
+    texture_url: "https://textures.minecraft.net/texture/e910904bff9c86f6ed47688e9429c26e8d9c5d5743bd3ebb8e6f5040be192998"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5MTA5MDRiZmY5Yzg2ZjZlZDQ3Njg4ZTk0MjljMjZlOGQ5YzVkNTc0M2JkM2ViYjhlNmY1MDQwYmUxOTI5OTgifX19"
+    display_name: "<blue><b>[Cờ Thụy Điển]</b></blue>"
+    description: "<blue>+ <yellow>Quốc kỳ Vương quốc Thụy Điển</yellow></blue>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "sweden"
+      - "se"
+      - "thuydien"
+      - "thuy_dien"
+
+  Norway:
+    name: "Norway"
+    uuid: "75648ac5-00c3-4d44-8cbd-0f5fc2b5fe2e"
+    texture_url: "https://textures.minecraft.net/texture/e0596e165ec3f389b59cfdda93dd6e363e97d9c6456e7c2e123973fa6c5fda"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UwNTk2ZTE2NWVjM2YzODliNTljZmRkYTkzZGQ2ZTM2M2U5N2Q5YzY0NTZlN2MyZTEyMzk3M2ZhNmM1ZmRhIn19fQ=="
+    display_name: "<red><b>[Cờ Na Uy]</b></red>"
+    description: "<red>+ <blue>Quốc kỳ Vương quốc Na Uy</blue></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "norway"
+      - "no"
+      - "nauy"
+      - "na_uy"
+
+  Switzerland:
+    name: "Switzerland"
+    uuid: "c3334df9-232a-48b3-b9b7-57a5815eb5b6"
+    texture_url: "https://textures.minecraft.net/texture/572ffabc40a3a82a9dbb081038f9834707b8a7a595e47d63e4c7a7e24a6c8829"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3MmZmYWJjNDBhM2E4MmE5ZGJiMDgxMDM4Zjk4MzQ3MDdiOGE3YTU5NWU0N2Q2M2U0YzdhN2UyNGE2Yzg4MjkifX19"
+    display_name: "<red><b>[Cờ Thụy Sĩ]</b></red>"
+    description: "<red>+ <white>Quốc kỳ Liên bang Thụy Sĩ (Chữ thập trắng)</white></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "switzerland"
+      - "ch"
+      - "thuysi"
+      - "thuy_si"
+
+  Ukraine:
+    name: "Ukraine"
+    uuid: "2573db49-5296-4f79-b443-4cb582132dcd"
+    texture_url: "https://textures.minecraft.net/texture/28b9f52e36aa5c7caaa1e7f26ea97e28f635e8eac9aef74cec97f465f5a6b51"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI4YjlmNTJlMzZhYTVjN2NhYWExZTdmMjZlYTk3ZTI4ZjYzNWU4ZWFjOWFlZjc0Y2VjOTdmNDY1ZjVhNmI1MSJ9fX0="
+    display_name: "<blue><b>[Cờ Ukraine]</b></blue>"
+    description: "<blue>▀<yellow>▀ Quốc kỳ Ukraine (Lam & Vàng)</yellow></blue>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "ukraine"
+      - "ua"
+
+  Netherlands:
+    name: "Netherlands"
+    uuid: "5ddfbff0-7173-48ec-82e6-73343e7fce0f"
+    texture_url: "https://textures.minecraft.net/texture/c23cf210edea396f2f5dfbced69848434f93404eefeabf54b23c073b090adf"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MyM2NmMjEwZWRlYTM5NmYyZjVkZmJjZWQ2OTg0ODQzNGY5MzQwNGVlZmVhYmY1NGIyM2MwNzNiMDkwYWRmIn19fQ=="
+    display_name: "<red><b>[Cờ Hà Lan]</b></red>"
+    description: "<red>▀<white>▀<blue>▀ Quốc kỳ Vương quốc Hà Lan</blue></white></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "netherlands"
+      - "nl"
+      - "halan"
+      - "ha_lan"
+
+  Poland:
+    name: "Poland"
+    uuid: "b635a0bd-3c73-443b-a9e3-372e731ec4a2"
+    texture_url: "https://textures.minecraft.net/texture/921b2af8d2322282fce4a1aa4f257a52b68e27eb334f4a181fd976bae6d8eb"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkyMWIyYWY4ZDIzMjIyODJmY2U0YTFhYTRmMjU3YTUyYjY4ZTI3ZWIzMzRmNGExODFmZDk3NmJhZTZkOGViIn19fQ=="
+    display_name: "<white><b>[Cờ Ba Lan]</b></white>"
+    description: "<white>▀<red>▀ Quốc kỳ Cộng hòa Ba Lan</red></white>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "poland"
+      - "pl"
+      - "balan"
+      - "ba_lan"
+
+  Argentina:
+    name: "Argentina"
+    uuid: "53c34e61-e1cf-4857-87f0-d2c281af4b04"
+    texture_url: "https://textures.minecraft.net/texture/f6d033dc5f675ad51bc06c7a1949c35a1d37e48a2e1c2789c2cf7d30ec58f32c"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y2ZDAzM2RjNWY2NzVhZDUxYmMwNmM3YTE5NDljMzVhMWQzN2U0OGEyZTFjMjc4OWMyY2Y3ZDMwZWM1OGYzMmMifX19"
+    display_name: "<aqua><b>[Cờ Argentina]</b></aqua>"
+    description: "<aqua>▀<white>☼<aqua>▀ Quốc kỳ Cộng hòa Argentina</aqua></white></aqua>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "argentina"
+      - "ar"
+
+  Portugal:
+    name: "Portugal"
+    uuid: "6290ba3b-102a-45b1-a37e-36b3d1279a1e"
+    texture_url: "https://textures.minecraft.net/texture/ebd51f4693af174e6fe1979233d23a40bb987398e3891665fafd2ba567b5a53a"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ViZDUxZjQ2OTNhZjE3NGU2ZmUxOTc5MjMzZDIzYTQwYmI5ODczOThlMzg5MTY2NWZhZmQyYmE1NjdiNWE1M2EifX19"
+    display_name: "<green><b>[Cờ Bồ Đào Nha]</b></green>"
+    description: "<green>▌<red>▌ Quốc kỳ Cộng hòa Bồ Đào Nha</red></green>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "portugal"
+      - "pt"
+      - "bodaonha"
+      - "bo_dao_nha"
+
+  Turkey:
+    name: "Turkey"
+    uuid: "a75d99b6-6ae0-4b79-99ea-51506e02ee61"
+    texture_url: "https://textures.minecraft.net/texture/9852b9aba3482348514c1034d0affe73545c9de679ae4647f99562b5e5f47d09"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk4NTJiOWFiYTM0ODIzNDg1MTRjMTAzNGQwYWZmZTczNTQ1YzlkZTY3OWFlNDY0N2Y5OTU2MmI1ZTVmNDdkMDkifX19"
+    display_name: "<red><b>[Cờ Thổ Nhĩ Kỳ]</b></red>"
+    description: "<red>☾★ Quốc kỳ Cộng hòa Thổ Nhĩ Kỳ</red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "turkey"
+      - "tr"
+      - "thonhiky"
+      - "tho_nhi_ky"
+
+  Belgium:
+    name: "Belgium"
+    uuid: "244a7af0-fce8-45fa-b835-5c3f16481b9d"
+    texture_url: "https://textures.minecraft.net/texture/c8e0e0de705d366ba59506b3fb1a04fd3d51aff90e5cfb4ebbea66ea5976c0ff"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2M4ZTBlMGRlNzA1ZDM2NmJhNTk1MDZiM2ZiMWEwNGZkM2Q1MWFmZjkwZTVjZmI0ZWJiZWE2NmVhNTk3NmMwZmYifX19"
+    display_name: "<gold><b>[Cờ Bỉ]</b></gold>"
+    description: "<dark_gray>▌<yellow>▌<red>▌ Quốc kỳ Vương quốc Bỉ</red></yellow></dark_gray>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "belgium"
+      - "be"
+      - "bi"
+
+  Mexico:
+    name: "Mexico"
+    uuid: "30b1fcca-a535-4b08-a284-414d62759da1"
+    texture_url: "https://textures.minecraft.net/texture/ca971bfcf33b439821b4e5f0c86cd61435cd3e0c819e35dd9774ef0399f132b"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NhOTcxYmZjZjMzYjQzOTgyMWI0ZTVmMGM4NmNkNjE0MzVjZDNlMGM4MTllMzVkZDk3NzRlZjAzOTlmMTMyYiJ9fX0="
+    display_name: "<green><b>[Cờ Mexico]</b></green>"
+    description: "<green>▌<white>🦅<red>▌ Quốc kỳ Hợp chủng quốc Mexico</red></white></green>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "mexico"
+      - "mx"
+
+  Egypt:
+    name: "Egypt"
+    uuid: "31f76680-6caf-4b98-806a-3c79dfebe51e"
+    texture_url: "https://textures.minecraft.net/texture/826e742b32f0f8db59c07b1bcdde6f8a93f85c929e598c7e9273b9211f2ce78"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgyNmU3NDJiMzJmMGY4ZGI1OWMwN2IxYmNkZGU2ZjhhOTNmODVjOTI5ZTU5OGM3ZTkyNzNiOTIxMWYyY2U3OCJ9fX0="
+    display_name: "<gold><b>[Cờ Ai Cập]</b></gold>"
+    description: "<red>▀<white>🦅<dark_gray>▀ Quốc kỳ Cộng hòa Ả Rập Ai Cập</dark_gray></white></red>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "egypt"
+      - "eg"
+      - "aicap"
+      - "ai_cap"
+
+  Finland:
+    name: "Finland"
+    uuid: "82f8a252-128a-45ec-8354-2ee281dd8188"
+    texture_url: "https://textures.minecraft.net/texture/59f2349729a7ec8d4b1478adfe5ca8af96479e983fbad238ccbd81409b4ed"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU5ZjIzNDk3MjlhN2VjOGQ0YjE0NzhhZGZlNWNhOGFmOTY0NzllOTgzZmJhZDIzOGNjYmQ4MTQwOWI0ZWQifX19"
+    display_name: "<white><b>[Cờ Phần Lan]</b></white>"
+    description: "<white>+ <blue>Quốc kỳ Cộng hòa Phần Lan (Siniristilippu)</blue></white>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "finland"
+      - "fi"
+      - "phanlan"
+      - "phan_lan"
+
+  Rainbow:
+    name: "Pride Flag"
+    uuid: "517240fe-7646-465f-bda6-ef8e456e58b4"
+    texture_url: "https://textures.minecraft.net/texture/21c8c586b4b9761d8b78f16eb573583374e52f1a287357674e31fd2a8382"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIxYzhjNTg2YjRiOTc2MWQ4Yjc4ZjE2ZWI1NzM1ODMzNzRlNTJmMWEyODczNTc2NzRlMzFmZDJhODM4MiJ9fX0="
+    display_name: "<light_purple><b>[Cờ Lục Sắc]</b></light_purple>"
+    description: "<red>R<gold>a<yellow>i<green>n<blue>b<light_purple>o<dark_purple>w</dark_purple></light_purple></blue></green></yellow></gold></red> Pride Flag"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    aliases:
+      - "rainbow"
+      - "pride"
+      - "lgbt"
+      - "cauvong"
+      - "cau_vong"
+
+  globe:
+    name: "Earth"
+    uuid: "28e6e8ad-40ab-4690-9206-507324177423"
+    texture_url: "https://textures.minecraft.net/texture/1adbcf23e726f199339b253a5214f8831d62b97a50b0ed932c531f62c3223"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFhZGJjZjIzZTcyNmYxOTkzMzliMjUzYTUyMTRmODgzMWQ2MmI5N2E1MGIwZWQ5MzJjNTMxZjYyYzMyMjMifX19"
+    display_name: "<aqua><b>[Trái Đất]</b></aqua>"
+    description: ""
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    fallback_sprite: "minecraft:item/heart_of_the_sea"
+    aliases:
+      - "earth"
+      - "traidat"
+      - "trai_dat"
+      - "world"
+
+  discord:
+    name: "Discord"
+    uuid: "de431cd1-ae1d-49f6-9339-a96daeacc32b"
+    texture_url: "https://textures.minecraft.net/texture/7873c12bffb5251a0b88d5ae75c7247cb39a75ff1a81cbe4c8a39b311ddeda"
+    value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHBzOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc4NzNjMTJiZmZiNTI1MWEwYjg4ZDVhZTc1YzcyNDdjYjM5YTc1ZmYxYTgxY2JlNGM4YTM5YjMxMWRkZWRhIn19fQ=="
+    display_name: "<#5865F2><b>[Discord]</b></#5865F2>"
+    description: "<#7289DA>Biểu tượng ứng dụng Discord</#7289DA>"
+    category: "miscellaneous"
+    permission: "spriteschat.use.heads"
+    fallback_sprite: "minecraft:item/echo_shard"
+    aliases:
+      - "dc"
+      - "disc"
+      - "discord_app"
+
